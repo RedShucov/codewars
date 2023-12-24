@@ -6,7 +6,7 @@
 
 // Difficulty - 8 kyu
 
-// Outnput data:
+// Output data:
 // the generated array {Array}
 
 /**
