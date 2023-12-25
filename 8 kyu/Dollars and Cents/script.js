@@ -11,6 +11,6 @@
  * @param {number} amount - an amount in dollars.
  * @returns {string}
  */
-const formatString = (amount) => '$' + amount;
+const formatString = (amount) => '$' + amount.toFixed(2);
 
-console.log(formatString(39.99));
+console.log(formatString(5.1));
