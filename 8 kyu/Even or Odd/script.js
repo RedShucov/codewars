@@ -9,8 +9,8 @@
 /**
  * The function checks for an even number or an odd one.
  * @param {number} num - a number to check.
- * @returns {boolean}
+ * @returns {string} conclusion of even or odd of a string.
  */
-const isOdd = (num) => num % 2 === 0;
+const evenOrOdd = (number) => number % 2 === 0 ? 'Even' : 'Odd';
 
 console.log(isOdd(1));
